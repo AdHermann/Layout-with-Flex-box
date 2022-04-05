@@ -1,14 +1,11 @@
-
-
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 100%;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
-  }
-
+}
 
 .layout-wrapper {
   width: 1366px;
@@ -32,15 +29,15 @@ body {
   border-radius: 2px;
 }
 
-.links-wrapper{
+.links-wrapper {
   display: flex;
   justify-content: space-between;
   text-align: center;
   width: 33%;
 }
 
-.link{
-  color: #FFFFFF;
+.link {
+  color: #ffffff;
   font-size: 16px;
 }
 
@@ -51,29 +48,29 @@ body {
   background-color: #6fcf97;
 }
 
-.main-section{ 
+.main-section {
   display: flex;
   flex-direction: column;
   /* rever isso posteriormente */
   justify-content: space-around;
-  align-items:center;  
+  align-items: center;
 
-  height:1624px ;
+  height: 1624px;
   width: 1366px;
 }
 
-
-.top-row-wrapper{
+.top-row-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 1366px;
+  
 }
 
 .top-column-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 384px;
 }
 
@@ -86,15 +83,14 @@ body {
 
 .strong-lorem {
   color: #010101;
-  font-size: 24px ;
+  font-size: 24px;
 }
 
-.span-lorem{
+.span-lorem {
   color: #010101;
   font-size: 16px;
   display: flex;
   flex-direction: column;
-  width: 65%;
 }
 
 .second-section-wrapper {
@@ -102,6 +98,8 @@ body {
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
+  height: 463px;
+
 }
 
 .second-section-left-rectangle {
@@ -117,5 +115,16 @@ body {
   border-radius: 5px;
   width: 161.51px;
   height: 145px;
+}
 
+
+
+.third-section-wrapper {
+  height: 207px;
+  width: 100%;
+}
+
+.fourth-section-wrapper {
+  height: 207px;
+  width: 100%;
 }
