@@ -1,25 +1,36 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 100%;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
+:root {
+  --background: #464646;
+  --secondary: #6fcf97;
+  --font-secondary: #ffffff;
 }
 
-.layout-wrapper {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
   width: 1366px;
   background-color: #e5e5e5;
-  box-sizing: border-box;
+  
+  margin: 0 auto;
+  margin-bottom: 91px;
 }
 
+/* Header */
 .header {
-  height: 77px;
   background-color: #010101;
+}
 
+.header-container {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-between;
+  max-width: 1216px;
+  margin: 0 auto;
+  padding: 18px 0;
 }
 
 .left-green-rectangle {
@@ -48,23 +59,21 @@ body {
   background-color: #6fcf97;
 }
 
-.main-section {
-  display: flex;
-  flex-direction: column;
-  /* rever isso posteriormente */
-  justify-content: space-around;
-  align-items: center;
+/* Main */
 
-  height: 1624px;
-  width: 1366px;
+.main-section {
+ 
+  max-width: 1216px;
+  margin: 0 auto;
+  margin-top: 91px;
 }
 
+/* First Section */
 .top-row-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  width: 1366px;
-  
+  justify-content: space-between;
+ 
 }
 
 .top-column-wrapper {
@@ -82,24 +91,28 @@ body {
 }
 
 .strong-lorem {
+  margin-top: 8px;
   color: #010101;
   font-size: 24px;
+  font-weight: 700;
 }
 
 .span-lorem {
+margin-top: 8px;
   color: #010101;
   font-size: 16px;
-  display: flex;
-  flex-direction: column;
+  font-weight: 700;
 }
 
+/* Second Section */
+
 .second-section-wrapper {
+  margin-top: 89px; 
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   height: 463px;
-
 }
 
 .second-section-left-rectangle {
@@ -117,12 +130,14 @@ body {
   height: 145px;
 }
 
-
+/* Third Section */
 
 .third-section-wrapper {
   height: 207px;
   width: 100%;
 }
+
+/* Footer */
 
 .fourth-section-wrapper {
   height: 207px;
